@@ -7,6 +7,8 @@ def loop_iterator(number_of_times)
     puts "#{phrase}"
     counter += 
      if counter >= number_of_times
+       break
+     end
   end
 end
 
